@@ -73,7 +73,7 @@ basic_entries:
     label: Basic Entry
     type: entries
     source: Basic\Entry
-    scope: App\Classes\ScopeHelper::applyScope
+    modelScope: App\Classes\ScopeHelper::applyScope
 ```
 
 This would refer to the `App\Classes\ScopeHelper` class that may look a file located in **app/classes/ScopeHelper.php**, for example.
